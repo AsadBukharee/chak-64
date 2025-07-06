@@ -350,7 +350,7 @@ export default function Home() {
                       </div>
                       <div>
                         <p className="font-semibold text-gray-800">Chak 64</p>
-                        <p className="text-sm text-gray-600">29°34'09.4"N 73°00'03.9"E</p>
+                        <p className="text-sm text-gray-600">29°34&apos;09.4&quot;N 73°00&apos;03.9&quot;E</p>
                       </div>
                     </div>
                     <div className="flex-1 bg-gradient-to-br from-blue-100 to-purple-100 rounded-xl flex items-center justify-center relative overflow-hidden min-h-[320px] max-h-[440px]">
