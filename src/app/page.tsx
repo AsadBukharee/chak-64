@@ -19,6 +19,7 @@ import sponsorsData from "../data/sponsors.json";
 export default function Home() {
   const [language, setLanguage] = useState<'en' | 'ur'>('en');
   const [showScrollTop, setShowScrollTop] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const toggleLanguage = () => {
     setLanguage(language === 'en' ? 'ur' : 'en');
@@ -82,8 +83,10 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-[var(--background)] text-[var(--foreground)] flex flex-col">
       {/* Navbar */}
-      <nav className="w-full h-20 flex items-center justify-between px-8 shadow-sm sticky top-0 z-10 bg-white/80 backdrop-blur">
+      <nav className="w-full h-20 flex items-center justify-between px-4 md:px-8 shadow-sm sticky top-0 z-10 bg-white/80 backdrop-blur">
         <div className="text-2xl font-bold">Chak64</div>
+        
+        {/* Desktop Navigation */}
         <div className="hidden md:flex gap-8 text-base font-medium">
           <button 
             onClick={() => scrollToSection('about')}
@@ -110,6 +113,8 @@ export default function Home() {
             {currentContent.contactUs}
           </button>
         </div>
+
+        {/* Right side items */}
         <div className="flex items-center gap-4">
           <button 
             onClick={toggleLanguage}
@@ -117,10 +122,64 @@ export default function Home() {
           >
             {language === 'en' ? 'EN/UR' : 'UR/EN'}
           </button>
-          <button className="">🔔</button>
+          <button className="hidden md:block">🔔</button>
           <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-blue-400 to-purple-500 flex items-center justify-center text-white font-bold">A</div>
+          
+          {/* Mobile Hamburger Menu */}
+          <button 
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors"
+          >
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
         </div>
       </nav>
+
+      {/* Mobile Navigation Menu */}
+      {isMobileMenuOpen && (
+        <div className="md:hidden fixed top-20 left-0 right-0 bg-white shadow-lg border-t border-gray-200 z-20">
+          <div className="flex flex-col py-4">
+            <button 
+              onClick={() => {
+                scrollToSection('about');
+                setIsMobileMenuOpen(false);
+              }}
+              className="px-6 py-3 text-left hover:bg-gray-50 transition-colors font-medium"
+            >
+              {currentContent.aboutUs}
+            </button>
+            <button 
+              onClick={() => {
+                scrollToSection('campaigns');
+                setIsMobileMenuOpen(false);
+              }}
+              className="px-6 py-3 text-left hover:bg-gray-50 transition-colors font-medium"
+            >
+              {currentContent.campaigns}
+            </button>
+            <button 
+              onClick={() => {
+                scrollToSection('donate');
+                setIsMobileMenuOpen(false);
+              }}
+              className="px-6 py-3 text-left hover:bg-gray-50 transition-colors font-medium"
+            >
+              {currentContent.donate}
+            </button>
+            <button 
+              onClick={() => {
+                scrollToSection('contact');
+                setIsMobileMenuOpen(false);
+              }}
+              className="px-6 py-3 text-left hover:bg-gray-50 transition-colors font-medium"
+            >
+              {currentContent.contactUs}
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* Main Content */}
       <main className="flex-1">
@@ -270,7 +329,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="grid lg:grid-cols-2 gap-8">
+            <div className="grid md:grid-cols-2 gap-6 lg:gap-8">
               {/* Contact Form */}
               <div className="space-y-6">
                 <Card className="p-8 h-full">
@@ -353,7 +412,7 @@ export default function Home() {
                         <p className="text-sm text-gray-600">29°34&apos;09.4&quot;N 73°00&apos;03.9&quot;E</p>
                       </div>
                     </div>
-                    <div className="flex-1 bg-gradient-to-br from-blue-100 to-purple-100 rounded-xl flex items-center justify-center relative overflow-hidden min-h-[320px] max-h-[440px]">
+                    <div className="flex-1 bg-gradient-to-br from-blue-100 to-purple-100 rounded-xl flex items-center justify-center relative overflow-hidden min-h-[280px] sm:min-h-[320px] max-h-[400px] sm:max-h-[440px]">
                       <iframe
                         src="https://www.openstreetmap.org/export/embed.html?bbox=72.998,29.568,73.002,29.572&layer=mapnik&marker=29.569278,73.001083"
                         width="100%"
