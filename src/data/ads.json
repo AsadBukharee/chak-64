@@ -1,0 +1,48 @@
+{
+  "ads": [
+    {
+      "id": "1",
+      "title": "Local Business Promotion",
+      "urduTitle": "مقامی کاروبار کی تشہیر",
+      "description": "Support local businesses in Chak64. Visit our directory of community services.",
+      "urduDescription": "چک 64 میں مقامی کاروبار کی حمایت کریں۔ کمیونٹی خدمات کی ہماری ڈائریکٹری ملاحظہ کریں۔",
+      "image": "/images/ads/local-business.jpg",
+      "link": "/businesses",
+      "displayDuration": "2024-12-31",
+      "category": "Business"
+    },
+    {
+      "id": "2",
+      "title": "Community Events Calendar",
+      "urduTitle": "کمیونٹی ایونٹس کیلنڈر",
+      "description": "Stay updated with all community events, meetings, and celebrations in Chak64.",
+      "urduDescription": "چک 64 میں تمام کمیونٹی ایونٹس، میٹنگز اور تقریبات کے ساتھ اپ ٹو ڈیٹ رہیں۔",
+      "image": "/images/ads/events-calendar.jpg",
+      "link": "/events",
+      "displayDuration": "2024-12-31",
+      "category": "Events"
+    },
+    {
+      "id": "3",
+      "title": "Volunteer Opportunities",
+      "urduTitle": "رضاکارانہ مواقع",
+      "description": "Join our volunteer program and make a difference in the Chak64 community.",
+      "urduDescription": "ہمارے رضاکارانہ پروگرام میں شامل ہوں اور چک 64 کمیونٹی میں فرق پیدا کریں۔",
+      "image": "/images/ads/volunteer.jpg",
+      "link": "/volunteer",
+      "displayDuration": "2024-12-31",
+      "category": "Volunteer"
+    },
+    {
+      "id": "4",
+      "title": "Emergency Contact Information",
+      "urduTitle": "ہنگامی رابطے کی معلومات",
+      "description": "Important emergency contact numbers and information for Chak64 residents.",
+      "urduDescription": "چک 64 کے رہائشیوں کے لیے اہم ہنگامی رابطے کے نمبر اور معلومات۔",
+      "image": "/images/ads/emergency-contacts.jpg",
+      "link": "/emergency",
+      "displayDuration": "2024-12-31",
+      "category": "Emergency"
+    }
+  ]
+} 

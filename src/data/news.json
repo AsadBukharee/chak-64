@@ -1,0 +1,54 @@
+{
+  "news": [
+    {
+      "id": "1",
+      "title": "New Community Center Opens",
+      "urduTitle": "نیا کمیونٹی سینٹر کھلا",
+      "excerpt": "The newly constructed community center in Chak64 was inaugurated today, providing a space for social gatherings and events.",
+      "urduExcerpt": "چک 64 میں نئے تعمیر شدہ کمیونٹی سینٹر کا آج افتتاح ہوا، جو سماجی اجتماعات اور تقریبات کے لیے جگہ فراہم کرتا ہے۔",
+      "date": "2024-07-05",
+      "image": "/images/news/community-center.jpg",
+      "category": "Community"
+    },
+    {
+      "id": "2",
+      "title": "Local School Achieves Excellence",
+      "urduTitle": "مقامی اسکول نے عمدگی حاصل کی",
+      "excerpt": "Chak64 Government School ranked first in the district for academic performance this year.",
+      "urduExcerpt": "چک 64 گورنمنٹ اسکول نے اس سال تعلیمی کارکردگی کے لیے ضلع میں پہلی پوزیشن حاصل کی۔",
+      "date": "2024-07-03",
+      "image": "/images/news/school-achievement.jpg",
+      "category": "Education"
+    },
+    {
+      "id": "3",
+      "title": "Health Camp Success",
+      "urduTitle": "صحت کیمپ کی کامیابی",
+      "excerpt": "Free health camp organized last week benefited over 200 residents with medical checkups and consultations.",
+      "urduExcerpt": "پچھلے ہفتے منظم کردہ مفت صحت کیمپ نے طبی معائنے اور مشاورت کے ساتھ 200 سے زیادہ رہائشیوں کو فائدہ پہنچایا۔",
+      "date": "2024-07-01",
+      "image": "/images/news/health-camp.jpg",
+      "category": "Health"
+    },
+    {
+      "id": "4",
+      "title": "Road Construction Begins",
+      "urduTitle": "سڑک کی تعمیر شروع",
+      "excerpt": "Construction work on the main road connecting Chak64 to the highway has officially begun.",
+      "urduExcerpt": "چک 64 کو ہائی وے سے جوڑنے والی مرکزی سڑک پر تعمیراتی کام سرکاری طور پر شروع ہو گیا ہے۔",
+      "date": "2024-06-28",
+      "image": "/images/news/road-construction.jpg",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "5",
+      "title": "Youth Sports Tournament",
+      "urduTitle": "نوجوانوں کا کھیلوں کا ٹورنامنٹ",
+      "excerpt": "Annual youth cricket tournament will be held next month with teams from neighboring villages.",
+      "urduExcerpt": "سالانہ نوجوانوں کا کرکٹ ٹورنامنٹ اگلے مہینے پڑوسی گاؤں کی ٹیموں کے ساتھ منعقد ہوگا۔",
+      "date": "2024-06-25",
+      "image": "/images/news/sports-tournament.jpg",
+      "category": "Sports"
+    }
+  ]
+} 

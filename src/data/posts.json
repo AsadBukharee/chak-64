@@ -1,0 +1,86 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "user": {
+        "name": "Ahmed Khan",
+        "avatar": "/images/avatars/ahmed.jpg",
+        "role": "Volunteer"
+      },
+      "content": "Great progress on the water campaign! We've reached 65% of our target. Thank you to everyone who has contributed so far. Let's keep the momentum going! 💧",
+      "urduContent": "پانی کی مہم پر بہترین پیش رفت! ہم نے اپنے ہدف کا 65% حاصل کر لیا ہے۔ اب تک جن لوگوں نے حصہ لیا ہے ان سب کا شکریہ۔ آئیے رفتار برقرار رکھیں! 💧",
+      "image": "/images/posts/water-progress.jpg",
+      "timestamp": "2024-07-05T10:30:00Z",
+      "likes": 45,
+      "dislikes": 2,
+      "shares": 12,
+      "comments": [
+        {
+          "id": "1",
+          "user": "Fatima Ali",
+          "avatar": "/images/avatars/fatima.jpg",
+          "content": "Amazing work! Proud to be part of this community.",
+          "urduContent": "شاندار کام! اس کمیونٹی کا حصہ ہونے پر فخر ہے۔",
+          "timestamp": "2024-07-05T11:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "user": {
+        "name": "Dr. Sarah Ahmed",
+        "avatar": "/images/avatars/sarah.jpg",
+        "role": "Admin"
+      },
+      "content": "Health camp registration is now open! Free medical checkups for all residents. Please spread the word and encourage everyone to participate.",
+      "urduContent": "صحت کیمپ کی رجسٹریشن اب کھلی ہے! تمام رہائشیوں کے لیے مفت طبی معائنے۔ براہ کرم بات پھیلائیں اور سب کو شرکت کی ترغیب دیں۔",
+      "image": "/images/posts/health-camp-registration.jpg",
+      "timestamp": "2024-07-04T14:15:00Z",
+      "likes": 78,
+      "dislikes": 1,
+      "shares": 25,
+      "comments": []
+    },
+    {
+      "id": "3",
+      "user": {
+        "name": "Muhammad Hassan",
+        "avatar": "/images/avatars/hassan.jpg",
+        "role": "Volunteer"
+      },
+      "content": "Community meeting this Saturday at 3 PM. We'll discuss upcoming projects and community development plans. All are welcome!",
+      "urduContent": "اس ہفتے سنیچر کو شام 3 بجے کمیونٹی میٹنگ۔ ہم آنے والے منصوبوں اور کمیونٹی ترقی کے منصوبوں پر تبادلہ خیال کریں گے۔ سب کا خیر مقدم ہے!",
+      "image": null,
+      "timestamp": "2024-07-03T16:45:00Z",
+      "likes": 32,
+      "dislikes": 0,
+      "shares": 8,
+      "comments": [
+        {
+          "id": "2",
+          "user": "Ahmed Khan",
+          "avatar": "/images/avatars/ahmed.jpg",
+          "content": "I'll be there! Looking forward to it.",
+          "urduContent": "میں وہاں ہوں گا! اس کا انتظار کر رہا ہوں۔",
+          "timestamp": "2024-07-03T17:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "user": {
+        "name": "Fatima Ali",
+        "avatar": "/images/avatars/fatima.jpg",
+        "role": "Volunteer"
+      },
+      "content": "Education campaign update: We've collected enough books and supplies for 50 students. Thank you to all donors! 📚",
+      "urduContent": "تعلیمی مہم کی اپ ڈیٹ: ہم نے 50 طلباء کے لیے کافی کتابیں اور ضروریات جمع کر لی ہیں۔ تمام عطیہ دہندگان کا شکریہ! 📚",
+      "image": "/images/posts/education-supplies.jpg",
+      "timestamp": "2024-07-02T09:20:00Z",
+      "likes": 56,
+      "dislikes": 0,
+      "shares": 15,
+      "comments": []
+    }
+  ]
+} 

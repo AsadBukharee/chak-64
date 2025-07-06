@@ -1,0 +1,72 @@
+{
+  "featured": {
+    "id": "1",
+    "title": "Clean Water for Chak64",
+    "urduTitle": "چک 64 کے لیے صاف پانی",
+    "description": "Help us provide clean drinking water to every household in Chak64. This campaign aims to install water filtration systems and repair existing water infrastructure.",
+    "urduDescription": "چک 64 کے ہر گھر میں صاف پینے کا پانی فراہم کرنے میں ہماری مدد کریں۔ اس مہم کا مقصد واٹر فلٹریشن سسٹم نصب کرنا اور موجودہ پانی کی بنیادی ڈھانچے کی مرمت کرنا ہے۔",
+    "targetAmount": 500000,
+    "achievedAmount": 325000,
+    "deadline": "2024-12-31",
+    "image": "/images/water-campaign.jpg",
+    "topDonor": {
+      "name": "Ahmed Khan",
+      "avatar": "/images/avatars/ahmed.jpg",
+      "amount": 50000
+    },
+    "status": "active"
+  },
+  "active": [
+    {
+      "id": "2",
+      "title": "Education for All",
+      "urduTitle": "سب کے لیے تعلیم",
+      "description": "Support education initiatives for children in Chak64. Building classrooms and providing school supplies.",
+      "urduDescription": "چک 64 کے بچوں کے لیے تعلیمی اقدامات کی حمایت کریں۔ کلاس رومز کی تعمیر اور اسکول کی ضروریات فراہم کرنا۔",
+      "targetAmount": 300000,
+      "achievedAmount": 180000,
+      "deadline": "2024-11-15",
+      "image": "/images/education-campaign.jpg",
+      "topDonor": {
+        "name": "Fatima Ali",
+        "avatar": "/images/avatars/fatima.jpg",
+        "amount": 30000
+      },
+      "status": "active"
+    },
+    {
+      "id": "3",
+      "title": "Healthcare Center",
+      "urduTitle": "صحت کی دیکھ بھال کا مرکز",
+      "description": "Establish a healthcare center to provide basic medical services to the community.",
+      "urduDescription": "کمیونٹی کو بنیادی طبی خدمات فراہم کرنے کے لیے ایک صحت کی دیکھ بھال کا مرکز قائم کریں۔",
+      "targetAmount": 750000,
+      "achievedAmount": 450000,
+      "deadline": "2025-03-20",
+      "image": "/images/healthcare-campaign.jpg",
+      "topDonor": {
+        "name": "Dr. Sarah Ahmed",
+        "avatar": "/images/avatars/sarah.jpg",
+        "amount": 75000
+      },
+      "status": "active"
+    },
+    {
+      "id": "4",
+      "title": "Road Infrastructure",
+      "urduTitle": "سڑک کی بنیادی ڈھانچے",
+      "description": "Improve road connectivity and infrastructure in Chak64 for better accessibility.",
+      "urduDescription": "بہتر رسائی کے لیے چک 64 میں سڑک کی رابطے اور بنیادی ڈھانچے کو بہتر بنائیں۔",
+      "targetAmount": 400000,
+      "achievedAmount": 220000,
+      "deadline": "2024-10-30",
+      "image": "/images/road-campaign.jpg",
+      "topDonor": {
+        "name": "Muhammad Hassan",
+        "avatar": "/images/avatars/hassan.jpg",
+        "amount": 40000
+      },
+      "status": "active"
+    }
+  ]
+} 

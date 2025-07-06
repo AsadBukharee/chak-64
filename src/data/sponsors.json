@@ -1,0 +1,58 @@
+{
+  "sponsors": [
+    {
+      "id": "1",
+      "name": "PakTech Solutions",
+      "urduName": "پاک ٹیک حل",
+      "logo": "/images/sponsors/paktech-logo.png",
+      "website": "https://paktech.com",
+      "description": "Leading technology solutions provider supporting community development.",
+      "urduDescription": "کمیونٹی ترقی کی حمایت کرنے والا معروف ٹیکنالوجی حل فراہم کنندہ۔"
+    },
+    {
+      "id": "2",
+      "name": "Green Valley Foundation",
+      "urduName": "گرین ویلی فاؤنڈیشن",
+      "logo": "/images/sponsors/greenvalley-logo.png",
+      "website": "https://greenvalley.org",
+      "description": "Non-profit organization dedicated to environmental and social causes.",
+      "urduDescription": "ماحولیاتی اور سماجی مقاصد کے لیے وقف غیر منافع بخش تنظیم۔"
+    },
+    {
+      "id": "3",
+      "name": "Community Bank",
+      "urduName": "کمیونٹی بینک",
+      "logo": "/images/sponsors/communitybank-logo.png",
+      "website": "https://communitybank.pk",
+      "description": "Local banking partner supporting community financial initiatives.",
+      "urduDescription": "کمیونٹی کے مالیاتی اقدامات کی حمایت کرنے والا مقامی بینکنگ پارٹنر۔"
+    },
+    {
+      "id": "4",
+      "name": "HealthFirst Medical",
+      "urduName": "ہیلتھ فرسٹ میڈیکل",
+      "logo": "/images/sponsors/healthfirst-logo.png",
+      "website": "https://healthfirst.pk",
+      "description": "Healthcare provider committed to community wellness programs.",
+      "urduDescription": "کمیونٹی کی صحت کے پروگراموں کے لیے وقف صحت کی دیکھ بھال فراہم کنندہ۔"
+    },
+    {
+      "id": "5",
+      "name": "Education Plus",
+      "urduName": "ایجوکیشن پلس",
+      "logo": "/images/sponsors/educationplus-logo.png",
+      "website": "https://educationplus.org",
+      "description": "Educational organization supporting learning initiatives in rural areas.",
+      "urduDescription": "دیہی علاقوں میں تعلیمی اقدامات کی حمایت کرنے والی تعلیمی تنظیم۔"
+    },
+    {
+      "id": "6",
+      "name": "Local Business Association",
+      "urduName": "مقامی کاروبار ایسوسی ایشن",
+      "logo": "/images/sponsors/lba-logo.png",
+      "website": "https://lba-chak64.org",
+      "description": "Association of local businesses supporting community economic growth.",
+      "urduDescription": "کمیونٹی کی معاشی ترقی کی حمایت کرنے والے مقامی کاروبار کی ایسوسی ایشن۔"
+    }
+  ]
+} 
